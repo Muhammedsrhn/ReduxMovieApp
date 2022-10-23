@@ -1,0 +1,307 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.rside {
+    height: 47rem;
+    width: 21%;
+    flex-wrap: wrap;
+    left: 0;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.profile>img {
+    border-radius: 50%;
+}
+
+.pro {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    font-weight: 550;
+    padding-left: 1rem;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.pro div {
+    margin: 0 8px;
+}
+
+.profiles {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 1rem;
+}
+
+.profiles img {
+    border-radius: 20%;
+}
+
+.pross {
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+    font-size: 1rem;
+    padding: 0 15px;
+}
+
+
+.lside {
+    height: 47rem;
+    width: 21%;
+    flex-wrap: wrap;
+    right: 0;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.contacts {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.chaticon {
+    display: flex;
+}
+
+.profilee {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.profilee>img {
+    border-radius: 50%;
+}
+
+/* Main Area */
+
+.main-area {
+    display: grid;
+    width: 60%;
+    height: 30rem;
+    justify-content: center;
+}
+
+.addStory {
+    display: flex;
+    margin: 18px 0;
+    width: 135%;
+    color: white;
+    font-size: 1.2rem;
+    height: 12rem;
+    justify-content: flex-start;
+    padding-left: 5%;
+    cursor: pointer;
+    margin-top: 9%;
+
+}
+
+.story {
+    width: 120px;
+    margin: 0 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: .5rem;
+    font-weight: bold;
+    background-color: black;
+}
+
+/* post */
+
+.message {
+    display: grid;
+    height: 20rem;
+    width: 80%;
+    height: 17rem;
+    margin-left: 5%;
+}
+
+.post {
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    justify-content: flex-start;
+    background-color: white;
+    margin-left: 3%;
+}
+
+.post div {
+    margin-left: 2px;
+}
+
+.post img {
+    height: 45px;
+    border-radius: 50%;
+    width: 45px;
+    margin: 12px;
+}
+
+input[type=mind] {
+    width: 80%;
+    outline: none;
+    margin: 15px 0;
+    height: 2.2rem;
+    display: inline;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-left: 3%;
+    background-color: rgb(234, 232, 232);
+    box-shadow: none;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+}
+
+.ico {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+    margin: 0 50px;
+    font-size: 1rem;
+    align-items: center;
+
+}
+
+.room {
+    display: grid;
+    height: 8rem;
+    width: 77%;
+    background-color: white;
+    margin-left: 8%;
+    padding: 1rem;
+    margin-bottom: 5%;
+}
+
+.room-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rooms {
+    display: flex;
+}
+
+.create a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.images>div {
+    margin: 0 12px;
+}
+
+/* posted */
+
+.posted {
+    display: grid;
+    width: 81%;
+    align-items: flex-start;
+    background-color: white;
+    margin-bottom: 3%;
+    margin-left: 8%;
+}
+
+.poster {
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meer {
+    display: flex;
+    justify-content: center;
+    margin: 18px;
+    font-weight: 550;
+    font-size: 1rem;
+}
+
+.update {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-left: 18px;
+}
+
+.edit {
+    margin-top: 20px;
+}
+
+.qoutation {
+    font-size: 1.3rem;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding-left: 4%;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.like {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.like p {
+    margin-left: 5px;
+}
+
+pre {
+    margin-left: -135px;
+}
+
