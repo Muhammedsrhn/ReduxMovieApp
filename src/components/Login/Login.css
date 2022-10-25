@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-image {
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.login-form {
+    width: 350px;
+    height: 430px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: .9px solid #ddd;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+.login-text {
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+.login-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-area input[type=email] {
+    padding: 1.2rem;
+    outline: none;
+    margin: 0 5px;
+    width: 270px;
+    height: 35px;
+    margin-bottom: 8px;
+    border: 0.5px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-area input[type=password] {
+    padding: 1.2rem;
+    outline: none;
+    margin: 0 5px;
+    width: 270px;
+    height: 35px;
+    margin-bottom: 8px;
+    border: 0.5px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-area input[type=text] {
+    padding: 1.2rem;
+    outline: none;
+    margin: 0 5px;
+    width: 270px;
+    height: 35px;
+    margin-bottom: 8px;
+    border: 0.5px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-area input[type=email]:focus {
+    border: 1px solid rgb(165, 160, 160);
+}
+
+.login-area input[type=password]:focus {
+    border: 1px solid rgb(165, 160, 160);
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3897f0;
+    padding: 1.1rem;
+    width: 270px;
+    height: 30px;
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 6.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.login .alternative {
+    margin-left: 8px;
+}
+
+.facebook {
+    font-weight: 600;
+    color: #385285;
+    text-align: center;
+    cursor: pointer;
+}
+
+.facebook i {
+    padding: 5px;
+    font-size: 17px;
+}
+
+.forget-password {
+    font-size: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 0.9px solid #ddd;
+    width: 350px;
+    height: 70px;
+    bottom: 4%;
+    left: 54%;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: #3897f0;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.get-app {
+    position: absolute;
+    bottom: -15%;
+    width: 350px;
+    left: 55.3%;
+}
+
+.get-app p {
+    font-size: 14px;
+    color: #262626;
+    margin-bottom: 25px;
+    margin-left: 115px;
+}
+
+.get-app img {
+    width: 120px;
+    margin: 0 5px;
+    height: 40px;
+}
+
+.img {
+    display: flex;
+    margin-left: 30px;
+
+}
+
+/* show hide password */
+
+.login-area p {
+    position: absolute;
+    margin-top: 58px;
+    font-weight: 500;
+    left: 75%;
+    z-index: 2;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.login-area p:active {
+    opacity: 0.8;
+}
