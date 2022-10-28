@@ -1,8 +1,6 @@
 # Getting Started with Create React App
 
-![Tux, the Linux mascot](/screenshot/img1.png)
-![Tux, the Linux mascot](/screenshot/img2.png)
-![Tux, the Linux mascot](/screenshot/img3.png)
+![Tux, the Linux mascot](/screenshot/twitter.png)
 
 
 
