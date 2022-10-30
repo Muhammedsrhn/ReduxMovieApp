@@ -1,6 +1,5 @@
 # Getting Started with Create React App
 
-![Tux, the Linux mascot](/screenshot/twitter.png)
 
 
 
